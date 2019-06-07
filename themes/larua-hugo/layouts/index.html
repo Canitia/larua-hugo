@@ -1,7 +1,11 @@
 {{- partial "head.html" . -}}
 {{- partial "header.html" . -}}
 <div class="row">
-
+		<div class="col-12 top-content text-center">
+				<h1 class="h1-site-main h1-top">Preview</h1>
+				<hr class="fancy-hr">
+				<p class="p-top">Deze pagina bevat een preview van het Larua thema voor het Hugo platform. Het thema is nog verre van af, maar deze pagina biedt een kijkje in de huidige status van het thema.</p>
+				</div>
 		{{ range .Pages.ByPublishDate.Reverse }}
 		<div class="card col col-sm-12 col-md-12 col-lg-6">
 			  <a href="{{ .RelPermalink }}">
