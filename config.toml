@@ -23,6 +23,8 @@ canonifyurls = true
 [params]
     theme_version = "0.1.0"
 
+    logo = "/images/logo.png"
+    bgpattern = "/images/bgpattern.png"
     header = "/images/header/header.jpg"
 
     avatar = "/images/avatar/avatar.jpg"
