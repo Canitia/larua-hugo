@@ -20,3 +20,10 @@ canonifyurls = true
     weight = 3
     url  = "https://canitia.nl"
 
+[params]
+    theme_version = "0.1.0"
+
+    header = "/images/header/header.jpg"
+
+    avatar = "/images/avatar/avatar.jpg"
+    authorbio = "Dit is mijn biografie. Erg kort maar krachtig."
