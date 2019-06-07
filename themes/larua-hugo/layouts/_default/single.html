@@ -1,0 +1,41 @@
+{{ partial "head" . }}
+{{"<!-- begin layouts > _default > single.html  //-->" | safeHTML}}
+<body>
+<!-- Include our /layouts/partials/header.html partial -->
+{{ partial "header" . }}
+<div class="row h-100 page-row">
+		<div class="col col-xs-12 col-md-12 col-lg-12 main-content">
+		<article>
+		  <div class="post-head">
+				<h1 class="text-center post-title">{{ .Title }}</h1>
+				  <div class="post-authors text-center">
+						  <a href="#"><img src="//www.gravatar.com/avatar/91d7ce3ab716d026e7a517fcad4baf49?s=250&amp;d=mm&amp;r=x" class="post-avatar" alt="Geschreven door Michael Boumann" title="Geschreven door Michael Boumann"></a> 
+				  </div>
+				<div class="post-subitems text-center">
+				  <i class="fas fa-clock"></i><time datetime="{{ .Date.Format "2006-01-13" }}">{{ .Date.Format "02 Jan 2006" }}</time>
+				</div>
+		  </div>
+		<hr>
+		<div class="post-content">
+		  <h1 id="ipsum">Ipsum</h1><p><strong>Lorem Ipsum</strong> is slechts een proeftekst uit het &nbsp;drukkerij- en zetterijwezen. Lorem Ipsum is de standaard proeftekst in &nbsp;deze bedrijfstak sinds de 16e eeuw, toen een onbekende drukker een &nbsp;zethaak met letters nam en ze door elkaar husselde om een font-catalogus &nbsp;te maken. Het heeft niet alleen vijf eeuwen overleefd maar is ook, &nbsp;vrijwel onveranderd, overgenomen in elektronische letterzetting. Het is &nbsp;in de jaren '60 populair geworden met de introductie van Letraset vellen &nbsp;met Lorem Ipsum passages en meer recentelijk door desktop publishing &nbsp;software zoals Aldus PageMaker die versies van Lorem Ipsum bevatten.</p>
+		</div>
+
+		
+		   <section class="author-profile">
+  <div class="row">
+	  <div class="col-sm-2 col-md-2">
+		  <img src="//www.gravatar.com/avatar/91d7ce3ab716d026e7a517fcad4baf49?s=250&amp;d=mm&amp;r=x" class="avatar" title="" alt="Image of Michael Boumann"> 
+	  </div>
+	  <div class="col-sm-10 author-bio-text">
+		  Whoops...dat ziet er niet goed uit. Wie ben je eigenlijk?
+	  </div>
+  </div>
+  </section>
+  
+	</article>
+	  </div>
+  </div>
+  {{ partial "footer" . }}
+  {{"<!-- end layouts > _default > single.html  //-->" | safeHTML}}
+
+

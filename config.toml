@@ -1,0 +1,4 @@
+baseURL = "https://canitia.nl/"
+languageCode = "en-us"
+title = "Larua voor het Hugo platform"
+theme = "larua-hugo"
