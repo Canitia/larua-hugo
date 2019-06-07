@@ -9,7 +9,7 @@
 			<h2 class="card-title"><a href="{{ .RelPermalink }}" title="{{ .Title }}">{{ .Title }}</a></h2>
 			  <div class="card-actions-top">
 	  
-					  <a href="#" title="Michael Boumann"><img src="/images/fallback-user.jpg" class="homepage-avatar" alt="Geschreven door User" title="Geschreven door User"></a> 
+					  <a href="#"><img src="/images/fallback-user.jpg" class="homepage-avatar" alt="Geschreven door {{ with .Params.author }}{{ . }}{{ end }}" title="Geschreven door {{ with .Params.author }}{{ . }}{{ end }}"></a> 
 				  <small class="text-muted badge">
 					  <time datetime="{{ .Date.Format "2006-01-13" }}">{{ .Date.Format "02 Jan 2006" }}</time>
 				</small>

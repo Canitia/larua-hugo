@@ -2,6 +2,7 @@
 title: "My First Post"
 date: 2019-06-07T16:25:53+02:00
 draft: false
+author: "Michael Boumann"
 image: /images/fallback-image.jpg
 ---
 
