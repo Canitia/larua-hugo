@@ -225,7 +225,8 @@ ul#navbarNav {
 }
 
 .brand-logo {
-	margin:0 !important;
+	color: white;
+	margin-right: 30px !important;
 }
 
 .site-title {
