@@ -1,0 +1,21 @@
+{{- partial "head.html" . -}}
+{{- partial "header.html" . -}}
+<div class="row">
+
+{{ range .Pages.ByPublishDate.Reverse }}
+	<div class="card col col-sm-12 col-md-12 col-lg-6">
+			<a href="{{ .RelPermalink }}"><img src="{{.Params.image}}" class="homepage-image" alt="{{ .Title }}" title="{{ .Title }}" />   </a>         
+		<div class="card-block">
+		<h2 class="card-title"><a href="{{ .RelPermalink }}" title="{{ .Title }}">{{ .Title }}</a></h2>
+			<div class="card-actions-top">
+				<a href="#"><img src="{{.Site.Params.avatar}}" class="homepage-avatar" alt="Geschreven door {{ with .Params.author }}{{ . }}{{ end }}" title="Geschreven door {{ with .Params.author }}{{ . }}{{ end }}"></a> 
+				<small class="text-muted badge">
+					<time datetime="{{ .Date.Format "2006-01-13" }}">{{ .Date.Format "02 Jan 2006" }}</time>
+				</small>
+			</div>
+		<p class="card-text">{{ .Summary }}</p>
+		</div>
+	</div>  
+{{ end }}
+</div>
+{{- partial "footer.html" . -}}
