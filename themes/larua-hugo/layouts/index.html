@@ -4,7 +4,8 @@
 
 		{{ range .Pages.ByPublishDate.Reverse }}
 		<div class="card col col-sm-12 col-md-12 col-lg-6">
-			  <a href="{{ .RelPermalink }}"><img src="/images/fallback-image.jpg" class="homepage-image" alt="{{ .Title }}" title="{{ .Title }}"></a>         
+			  <a href="{{ .RelPermalink }}">
+				<img src="{{ with .Params.image }}{{ . }}{{ end }}" class="homepage-image" alt="{{ .Title }}" title="{{ .Title }}" />       
 		  <div class="card-block">
 			<h2 class="card-title"><a href="{{ .RelPermalink }}" title="{{ .Title }}">{{ .Title }}</a></h2>
 			  <div class="card-actions-top">
