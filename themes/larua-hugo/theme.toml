@@ -6,7 +6,14 @@ license = "MIT"
 licenselink = "https://github.com/Canitia/larua-hugo/blob/master/LICENSE"
 description = "Larua voor het Hugo platform"
 homepage = "https://canitia.nl"
-tags = []
+tags = [
+  "blog",
+  "minimal",
+  "responsive",
+  "simple",
+  "clean",
+  "personal"
+]
 features = []
 min_version = "0.41"
 

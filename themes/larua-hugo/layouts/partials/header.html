@@ -10,14 +10,14 @@
 		  <div class="brand-logo">{{ .Title}}</div>
 	<div class="collapse navbar-collapse" id="navbarNav">
 	  <ul class="navbar-nav">
-  
-				  <!-- Loop through the navigation items -->
-		  <li class="menu-item active">
-			  <a href="/" class="nav-link">Home</a>
-		  </li>
-		  <li class="menu-item">
-			  <a href="/posts" class="nav-link">Posts</a>
-		  </li>
+
+			{{ with .Site.Menus.main}}
+			{{ range sort . }}
+			  <li class="menu-item">
+				<a class="nav-link" href="{{ .URL | safeURL }}">{{ .Name }}</a>
+			  </li>
+			{{ end }}
+			{{ end }}
 		  <!-- End the loop -->
 	  </ul>
 	</div>
