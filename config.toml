@@ -12,7 +12,11 @@ canonifyurls = true
     weight = 1
     url = "/"
 [[menu.main]]
-    name = "Blog"
+    name = "Github repository"
     weight = 2
-    url  = "/"
+    url  = "https://github.com/Canitia/larua-hugo"
+[[menu.main]]
+    name = "Over Canitia"
+    weight = 2
+    url  = "https://canitia.nl"
 
