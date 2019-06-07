@@ -1,10 +1,10 @@
 <section class="author-profile">
 	<div class="row">
 		<div class="col-sm-2 col-md-2">
-			<img src="/images/fallback-user.jpg" class="avatar" title="" alt="Image of User"> 
+			<img src="{{.Site.Params.avatar}}" class="avatar" title="{{.Params.author}}" alt="{{.Params.author}}"> 
 		</div>
 		<div class="col-sm-10 author-bio-text">
-			Whoops...dat ziet er niet goed uit. Wie ben je eigenlijk?
+			{{.Site.Params.authorbio}}
 		</div>
 	</div>
 </section>

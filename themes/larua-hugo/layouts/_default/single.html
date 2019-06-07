@@ -9,13 +9,15 @@
 			<div class="post-head">
 				<h1 class="text-center post-title">{{ .Title }}</h1>
 				<div class="post-authors text-center">
-					<a href="#"><img src="/images/fallback-user.jpg" class="post-avatar" alt="Geschreven door {{ with .Params.author }}{{ . }}{{ end }}" title="Geschreven door {{ with .Params.author }}{{ . }}{{ end }}"></a> 
+					<a href="#"><img src="{{.Site.Params.avatar}}" class="post-avatar" alt="Geschreven door {{.Params.author}}" title="Geschreven door {{.Params.author}}"></a> 
 				</div>
 				<div class="post-subitems text-center">
 					<i class="fas fa-clock"></i><time datetime="{{ .Date.Format "2006-01-13" }}">{{ .Date.Format "02 Jan 2006" }}</time>
 				</div>
 			</div>
-			<hr>
+			<div class="d-none d-sm-block d-md-block d-lg-block tag_head_wrap">
+					<div class="tag_heading_home text-center" style="background-image: url('{{.Params.image}}'); background-repeat: no-repeat; background-size: cover;"></div>
+				</div>
 			<div class="post-content">
 			<p>{{ .Content }}</p>
 			</div>
