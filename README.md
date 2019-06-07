@@ -3,6 +3,7 @@ A spinoff of Larua for Ghost for the Hugo static site generator.
 
 ## Progress
 Currently in heavy development. Things to do include:
+- Pagination
 - Adding tags/categories
 - Adding related posts
 - Probably more i'm missing but need to check ;)
