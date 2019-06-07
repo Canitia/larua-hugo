@@ -1,5 +1,5 @@
 ## larua-hugo
-A spinoff of Larua for Ghost for the Hugo static site generator. 
+A spinoff of [Larua for Ghost](https://github.com/Canitia/larua) for the Hugo static site generator. 
 
 ## Progress
 Currently in heavy development. Things to do include:
