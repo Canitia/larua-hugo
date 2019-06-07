@@ -2,13 +2,14 @@
 A spinoff of Larua for Ghost for the Hugo static site generator. 
 
 ## Progress
-Currently in heavy development; still needs:
-
-- Adding missing Larua features (tags/categories, related posts and more)
+Currently in heavy development. Things to do include:
+- Adding tags/categories
+- Adding related posts
+- Probably more i'm missing but need to check ;)
 
 ## Prerequisites
-Step 1: Install [Hugo](https://gohugo.io/getting-started/installing)
-Step 2: Download repo
+- Step 1: Install [Hugo](https://gohugo.io/getting-started/installing)
+- Step 2: Download repo
 
 ## Customizing
 ### Site config in config.toml
