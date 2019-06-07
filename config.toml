@@ -1,14 +1,22 @@
 baseURL = "https://larua-hugo.canitia.nl/"
-languageCode = "en-us"
+languageCode = "nl"
 title = "Larua voor Hugo"
 theme = "larua-hugo"
+contentdir = "content/posts"
+layoutdir = "layouts"
+publishdir = "public"
+canonifyurls = true
 
 [[menu.main]]
     name = "Home"
     weight = 1
     url = "/"
 [[menu.main]]
-    name = "Blog"
+    name = "Github repository"
     weight = 2
-    url  = "/posts/"
+    url  = "https://github.com/Canitia/larua-hugo"
+[[menu.main]]
+    name = "Over Canitia"
+    weight = 3
+    url  = "https://canitia.nl"
 
