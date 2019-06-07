@@ -4,7 +4,7 @@
 name = "Larua Hugo"
 license = "MIT"
 licenselink = "https://github.com/Canitia/larua-hugo/blob/master/LICENSE"
-description = "Larua for the Hugo platform"
+description = "Larua voor het Hugo platform"
 homepage = "https://canitia.nl"
 tags = []
 features = []
