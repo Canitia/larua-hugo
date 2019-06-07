@@ -17,6 +17,6 @@ canonifyurls = true
     url  = "https://github.com/Canitia/larua-hugo"
 [[menu.main]]
     name = "Over Canitia"
-    weight = 2
+    weight = 3
     url  = "https://canitia.nl"
 
