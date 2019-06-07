@@ -1,9 +1,9 @@
 {{- partial "head.html" . -}}
 {{- partial "header.html" . -}}
-<div class="row">
+<div class="row page-row">
 
 {{ range .Pages.ByPublishDate.Reverse }}
-	<div class="card col col-sm-12 col-md-12 col-lg-6">
+	<div class="card col col-sm-12 col-md-6 col-lg-4">
 			<a href="{{ .RelPermalink }}"><img src="{{.Params.featured}}" class="homepage-image" alt="{{ .Title }}" title="{{ .Title }}" />   </a>         
 		<div class="card-block">
 		<h2 class="card-title"><a href="{{ .RelPermalink }}" title="{{ .Title }}">{{ .Title }}</a></h2>
