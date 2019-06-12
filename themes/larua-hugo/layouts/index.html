@@ -17,8 +17,6 @@
 		</div>
 	</div>  
 {{ end }}
-{{ template "_internal/pagination.html" . }}
-{{ range .Paginator.Pages }} 
-{{ end }}
+{{- partial "pagination.html" . -}}
 </div>
 {{- partial "footer.html" . -}}
