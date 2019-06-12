@@ -1,21 +1,26 @@
 {{- partial "head.html" . -}}
 {{- partial "header.html" . -}}
-<div class="row">
+<div class="row page-row">
 
-{{ range .Pages.ByPublishDate.Reverse }}
-	<div class="card col col-sm-12 col-md-12 col-lg-6">
-			<a href="{{ .RelPermalink }}"><img src="{{.Params.featured}}" class="homepage-image" alt="{{ .Title }}" title="{{ .Title }}" />   </a>         
-		<div class="card-block">
-		<h2 class="card-title"><a href="{{ .RelPermalink }}" title="{{ .Title }}">{{ .Title }}</a></h2>
-			<div class="card-actions-top">
-				<a href="#"><img src="{{.Site.Params.avatar}}" class="homepage-avatar" alt="{{.Params.author}}" title="{{.Params.author}}"></a> 
-				<small class="text-muted badge">
-					<time datetime="{{ .Date.Format "2006-01-13" }}">{{ .Date.Format "02 Jan 2006" }}</time>
-				</small>
-			</div>
-		<p class="card-text">{{ .Summary }}</p>
+	{{ $paginator := .Paginate (where .Pages "Type" "post") }}
+
+	{{ range $paginator.Pages }}
+
+	<div class="card col col-sm-12 col-md-6 col-lg-4">
+		<a href="{{ .RelPermalink }}"><img src="{{.Params.featured}}" class="homepage-image" alt="{{ .Title }}" title="{{ .Title }}" />   </a>         
+	<div class="card-block">
+	<h2 class="card-title"><a href="{{ .RelPermalink }}" title="{{ .Title }}">{{ .Title }}</a></h2>
+		<div class="card-actions-top">
+			<a href="#"><img src="{{.Site.Params.avatar}}" class="homepage-avatar" alt="{{.Params.author}}" title="{{.Params.author}}"></a> 
+			<small class="text-muted badge">
+				<time datetime="{{ .Date.Format "2006-01-13" }}">{{ .Date.Format "02 Jan 2006" }}</time>
+			</small>
 		</div>
-	</div>  
-{{ end }}
-</div>
+	<p class="card-text">{{ .Summary }}</p>
+	</div>
+</div>  
+
+	{{ end }}
+
 {{- partial "footer.html" . -}}
+</div>

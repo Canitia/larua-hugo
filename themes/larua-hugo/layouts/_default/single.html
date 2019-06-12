@@ -1,5 +1,4 @@
-{{ partial "head" . }}
-{{"<!-- begin layouts > _default > single.html  //-->" | safeHTML}}
+{{- partial "head.html" . -}}
 <body>
 <!-- Include our /layouts/partials/header.html partial -->
 {{ partial "header" . }}
@@ -23,11 +22,11 @@
 			</div>
 
 			{{ partial "author-section" . }}
-	
+			{{ partial "related" . }}
 		</article>
 	</div>
+	{{ partial "footer" . }}
 </div>
-{{ partial "footer" . }}
-{{"<!-- end layouts > _default > single.html  //-->" | safeHTML}}
+
 
 

@@ -1,6 +1,6 @@
 ---
-title: "My Third Post"
-date: 2019-06-07T16:59:44+02:00
+title: "My Fourth Post"
+date: 2019-06-08T16:59:44+02:00
 draft: false
 author: "Michael Boumann"
 featured: /images/posts/post1.jpg
