@@ -1,4 +1,5 @@
 <footer class="page-footer" style="background-image:url('/assets/bgpattern.png?v=138d2fd821')">
+  {{- partial "pagination.html" . -}}
 	<div class="top-socials">
 		<a href="{{ with .OutputFormats.Get "RSS" }}{{ .RelPermalink }}{{ end }}" target="_blank"><i class="fas fa-rss"></i></a>
 		  <a href="https://twitter.com/CanitiaNL" target="_blank"><i class="fab fa-twitter"></i></a>
