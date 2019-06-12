@@ -19,6 +19,11 @@ h6 {
 	font-family: 'Lalezar', cursive !important;
 }
 
+ul {
+	padding-left: 0 !important;
+	max-width: 100%;
+}
+
 p > a {
 	text-decoration: underline;
 }
