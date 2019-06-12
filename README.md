@@ -3,9 +3,9 @@ A spinoff of [Larua for Ghost](https://github.com/Canitia/larua) for the Hugo st
 
 ## Progress
 Currently in heavy development. Things to do include:
-- Pagination
+- ~~Pagination~~ **added in 0.2.0**
 - Adding tags/categories
-- Adding related posts
+- ~~Adding related posts~~ **added in 0.3.0**
 - Probably more i'm missing but need to check ;)
 
 ## Prerequisites
