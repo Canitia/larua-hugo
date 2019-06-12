@@ -906,45 +906,22 @@ img.avatar {
 	border-radius: 0 !important;
 	height: 100px;
 	padding-left: inherit !important;
+	margin-left: auto;
+	margin-right: auto;
 }
 
-.pagination > .active {
-	padding: 20px;
-	line-height: 14px;
-    font-weight: 700;
-	background: #d3d3d3;
-	text-align: center;
-	border-radius: 5px;
-	width: 54px;
-	height: 54px;
-}
-
-.pagination > a > li {
-	font-weight: 700;
-	border-radius: 5px;
-	width: 54px;
-	height: 54px;
-	line-height: 52px;
-	border: 1px solid #d3d3d3;
-	text-align: center;
-	margin-left: 5px;
-	margin-right: 5px;
-	margin-bottom: 0px;
-	background: #f8f8f8;
-}
-
-.pagination a li  {
+.page-link {
 	color: black !important;
 }
 
-.pagination a li:hover {
-    background: #d3d3d3;
+.page-item.active .page-link {
+	background: #ebebeb !important;
+	color: black !important;
+	border: 1px solid #979797 !important;
 }
 
-.pagination > ul > li {
-	background-color: #b5b5b5;
-	padding: 15px;
-	font-weight: 600;
+.page-item.active .page-link:hover {
+	background: #545454;
 }
 
 /* **************************************
