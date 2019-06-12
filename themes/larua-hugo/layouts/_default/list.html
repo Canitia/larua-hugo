@@ -2,7 +2,7 @@
 {{- partial "header.html" . -}}
 <div class="row">
 
-{{ range .Pages.ByPublishDate.Reverse }}
+{{ range first 10 .Pages.ByPublishDate.Reverse }}
 	<div class="card col col-sm-12 col-md-12 col-lg-6">
 			<a href="{{ .RelPermalink }}"><img src="{{.Params.featured}}" class="homepage-image" alt="{{ .Title }}" title="{{ .Title }}" />   </a>         
 		<div class="card-block">
@@ -17,6 +17,5 @@
 		</div>
 	</div>  
 {{ end }}
-{{- partial "pagination.html" . -}}
 </div>
 {{- partial "footer.html" . -}}
