@@ -29,3 +29,7 @@ canonifyurls = true
 
     avatar = "/images/avatar/avatar.jpg"
     authorbio = "Dit is mijn biografie. Erg kort maar krachtig."
+
+[taxonomies]
+   tag = "tags"
+   category = "categories"
