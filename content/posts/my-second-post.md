@@ -6,7 +6,7 @@ author: "Michael Boumann"
 featured: /images/posts/post1.jpg
 type: post
 keywords: lorum
-categories: [cat1,cat2,cat3]
+categories: [cat1,cat2]
 tags: [new,content,tags]
 ---
 
