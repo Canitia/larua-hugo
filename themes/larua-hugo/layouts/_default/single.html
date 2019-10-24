@@ -24,7 +24,7 @@
 					<a href="/categories/{{ . }}">{{ . }}</a>
 				{{ end }}
 			</p>
-			{{ with .Params.tags }}{{ delimit . ", #" }}{{ end }}
+			{{ with .Params.tags }}#{{ delimit . ", #" }}{{ end }}
 			</div>
 
 			{{ partial "author-section" . }}
