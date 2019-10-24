@@ -10,6 +10,11 @@
 				<div class="post-authors text-center">
 					<a href="#"><img src="{{.Site.Params.avatar}}" class="post-avatar" alt="Geschreven door {{.Params.author}}" title="Geschreven door {{.Params.author}}"></a> 
 				</div>
+				<p class="category-item text-center text-muted">
+					{{ range .Params.categories }}
+						<a href="/categories/{{ . }}">{{ . }}</a>
+					{{ end }}
+				</p>
 				<div class="post-subitems text-center">
 					<i class="fas fa-clock"></i><time datetime="{{ .Date.Format "2006-01-13" }}">{{ .Date.Format "02 Jan 2006" }}</time>
 				</div>
@@ -19,12 +24,7 @@
 				</div>
 			<div class="post-content">
 			<p>{{ .Content }}</p>
-			<p class="category-item text-muted">
-				{{ range .Params.categories }}
-					<a href="/categories/{{ . }}">{{ . }}</a>
-				{{ end }}
-			</p>
-			{{ with .Params.tags }}{{ delimit . ", #" }}{{ end }}
+			{{ with .Params.tags }}#{{ delimit . ", #" }}{{ end }}
 			</div>
 
 			{{ partial "author-section" . }}
