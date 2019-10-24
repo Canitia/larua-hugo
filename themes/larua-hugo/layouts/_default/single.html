@@ -21,9 +21,10 @@
 			<p>{{ .Content }}</p>
 			<p class="category-item text-muted">
 				{{ range .Params.categories }}
-					<a href="/categories/{{ . }}">#{{ . }}</a>
+					<a href="/categories/{{ . }}">{{ . }}</a>
 				{{ end }}
 			</p>
+			{{ with .Params.tags }}{{ delimit . ", #" }}{{ end }}
 			</div>
 
 			{{ partial "author-section" . }}
@@ -32,6 +33,3 @@
 	</div>
 	{{ partial "footer" . }}
 </div>
-
-
-

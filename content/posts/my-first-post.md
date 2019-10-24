@@ -5,7 +5,7 @@ draft: false
 author: "Michael Boumann"
 featured: /images/posts/post1.jpg
 type: post
-categories: [cat1,cat2,cat3]
+categories: [cat1,cat3]
 tags: [new,content,tags]
 ---
 
