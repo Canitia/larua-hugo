@@ -1452,12 +1452,6 @@ footer {
 		margin-top: 5px;
 	}
 
-	.container-fluid {
-		max-width: 760px;
-		margin-left: auto;
-		margin-right: auto;
-	}
-
 	.tag_heading {
 		margin-top: 0;
 		height: 350px !important;
