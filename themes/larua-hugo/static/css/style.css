@@ -599,7 +599,7 @@ POST/ARTICLE HEADERS
     height: 100%;
 }
  .kg-gallery-row:not(:first-of-type) {
-    margin: 0.75em 0 0 0;
+    margin: 0.75em 0 0;
 }
  .kg-gallery-image:not(:first-of-type) {
     margin: 0 0 0 0.75em;
@@ -757,7 +757,6 @@ iframe {
 	height: 100% !important;
 	position: relative;
 	height: 425px !important;
-	max-height: 425px !important;
 	display: flex;
 	align-items: center;
 	justify-content: center;
