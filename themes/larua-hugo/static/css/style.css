@@ -1542,14 +1542,10 @@ footer {
 		background-size: cover;
 	}
 
-	.tag_heading {
-		height: 425px !important;
-	}
-
+	.tag_heading,
 	.tag_heading_home {
 		height: 425px !important;
 	}
-
 }
 
 /* **************************************
