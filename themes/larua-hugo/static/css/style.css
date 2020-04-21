@@ -9,11 +9,11 @@ html body {
 	min-width: 320px;
 }
 
-h1, 
-h2, 
-h3, 
-h4, 
-h5, 
+h1,
+h2,
+h3,
+h4,
+h5,
 h6 {
     color: #2f313d;
 	font-family: 'Lalezar', cursive !important;
@@ -60,12 +60,14 @@ strong {
   font-weight: 700 !important;
 }
 
-p > a, .collection .collection-item, 
+p > a,
+.collection .collection-item,
 .collection-item > a {
 	color: black !important;
 }
 
-p > a:focus, p > a:hover
+p > a:focus,
+p > a:hover
 {
   color:#b5b5b5 !important;
 }
@@ -360,17 +362,18 @@ ul.collection.collection-recent > a > li:hover {
 	filter: brightness(80%);
 }
 
-.postdate > a, .author-profile h4, 
-.text-left-title a, 
+.postdate > a,
+.author-profile h4,
+.text-left-title a,
 .author-url-post-head  {
 	color:#b5b5b5 !important;
 }
 
-.main-content > .text-left-title, 
-article > h1:not(:first-child), 
-article > h2, 
-article > h3, 
-article > h4, 
+.main-content > .text-left-title,
+article > h1:not(:first-child),
+article > h2,
+article > h3,
+article > h4,
 .author-url-post-head  {
 	color:#b5b5b5 !important;
 }
@@ -405,7 +408,8 @@ POST/ARTICLE CARD UI - main
     text-decoration: none;
 }
 
-.card-block, .post-content {
+.card-block,
+.post-content {
 	padding: 10px;
 }
 
@@ -600,7 +604,8 @@ POST/ARTICLE HEADERS
     margin: 0 0 0 0.75em;
 }
 
-p > img, .post-content img {
+p > img,
+.post-content img {
     max-width: 100%;
 }
 
@@ -676,7 +681,8 @@ article {
 	background-position: 50% 20%;
 }
 
-.post-content img, .post-content  p  img {
+.post-content img,
+.post-content  p  img {
 	max-width: 100%;
 	height:auto;
 	display:block;
@@ -974,7 +980,7 @@ footer {
 	text-decoration: none;
 }
 
-.footer a, 
+.footer a,
 .footer p {
 	font-size: 12px;
 	color: white !important;
@@ -1045,7 +1051,8 @@ footer {
 		height: auto;
 	}
 
-	.headerurl, .nav-link {
+	.headerurl,
+	.nav-link {
 		text-shadow: none;
 	}
 
@@ -1224,7 +1231,8 @@ footer {
 		padding:5px;
 	}
 
-	.card-block, .post-content {
+	.card-block,
+	.post-content {
 		padding: 0;
 	}
 
@@ -1232,7 +1240,8 @@ footer {
 		margin-top: -15px;
 	}
 
-	.fa-star, .fa-circle {
+	.fa-star,
+	.fa-circle {
 		margin-right: 5px;
 	}
 
@@ -1257,7 +1266,8 @@ footer {
 		padding: 15px;
 	}
 
-	.kg-image-card.kg-width-wide, .kg-image-card.kg-width-full {
+	.kg-image-card.kg-width-wide,
+	.kg-image-card.kg-width-full {
 		margin-left: 0 !important;
 		margin-right: 0 !important;
 	}
@@ -1326,7 +1336,8 @@ footer {
 		height: auto;
 	}
 
-	.headerurl, .nav-link {
+	.headerurl,
+	.nav-link {
 		text-shadow: none;
 	}
 
@@ -1394,7 +1405,8 @@ footer {
     	font-size: 120%;
     }
 
-    .content-images, .content-images-individual {
+	.content-images,
+	.content-images-individual {
 		object-fit: cover;
     }
 
@@ -1425,7 +1437,8 @@ footer {
 		padding: 25px;
 	}
 
-	.kg-image-card.kg-width-wide, .kg-image-card.kg-width-full {
+	.kg-image-card.kg-width-wide,
+	.kg-image-card.kg-width-full {
 		margin-left: 0 !important;
 		margin-right: 0 !important;
 	}
@@ -1497,7 +1510,8 @@ footer {
 		height: auto;
 	}
 
-	.headerurl, .nav-link {
+	.headerurl,
+	.nav-link {
 		text-shadow: none;
 	}
 
@@ -1522,7 +1536,8 @@ footer {
     	font-size: 120%;
     }
 
-    .content-images, .content-images-individual {
+	.content-images,
+	.content-images-individual {
 		object-fit: cover;
     }
 
@@ -1546,7 +1561,8 @@ footer {
 		height: 90px;
 	}
 
-	.kg-image-card.kg-width-wide, .kg-image-card.kg-width-full {
+	.kg-image-card.kg-width-wide,
+	.kg-image-card.kg-width-full {
 		margin-left: 0 !important;
 		margin-right: 0 !important;
 	}
@@ -1624,19 +1640,16 @@ footer {
 EXTERNAL libraries look-n-feel
 
 *****************************************/
-.fa-user-secret, .fa-tag {
+.fa-user-secret,
+.fa-tag {
   color: #b5b5b5;
-}
-
-.fa-user-secret, .fa-tag {
-	margin-left:20px;
-	margin-right:20px;
+  margin-left:20px;
+  margin-right:20px;
 }
 
 .fa-facebook:hover {
 	color: #3b5998;
 }
-
 
 .fa-twitter:hover {
 	color: #1dcaff;
@@ -1679,7 +1692,8 @@ EXTERNAL libraries look-n-feel
 	color: black;
 }
 
-.fa-user, .fa-book {
+.fa-user,
+.fa-book {
 	margin-left: 25px;
 }
 
@@ -1731,7 +1745,9 @@ Animations
 	transition-property: transform;
   }
 
-  .hvr-rotate:hover, .hvr-rotate:focus, .hvr-rotate:active {
+  .hvr-rotate:hover,
+  .hvr-rotate:focus,
+  .hvr-rotate:active {
 	-webkit-transform: rotate(15deg);
 	transform: rotate(15deg);
   }
