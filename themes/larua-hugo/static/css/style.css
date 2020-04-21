@@ -1040,11 +1040,13 @@ footer {
 
 	.card,
 	.card-block {
-		border: 0 !important;
+		max-width: 100% !important;
 	}
 
 	.card-block {
-		max-width: 100% !important;
+		border: 0 !important;
+		height: auto !important;
+		padding: 10px;
 	}
 
 	.card-text {
@@ -1251,11 +1253,6 @@ footer {
 
 	.tagslist a {
 		padding: 3px;
-	}
-
-	.card-block {
-		height: auto !important;
-		padding: 10px;
 	}
 
 	iframe {
