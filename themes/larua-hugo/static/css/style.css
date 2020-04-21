@@ -149,6 +149,7 @@ main {
 	display: flex;
 	justify-content: center;
 	z-index: 1;
+	top: 100px;
 }
 
 .text-main {
@@ -1028,10 +1029,6 @@ footer {
 		margin-top: 0;
 	}
 
-	.logo-main {
-		top: 100px;
-	}
-
 	.cover-image {
 		top: -125px;
 		position: relative;
@@ -1084,10 +1081,6 @@ footer {
 
 	.text-main {
 		top: 275px;
-	}
-
-	.logo-main {
-		top: 100px;
 	}
 
 	.navbar-brand:hover {
@@ -1300,10 +1293,6 @@ footer {
 		background-position: 50% 20%;
 	}
 
-	.logo-main {
-		top: 100px;
-	}
-
 	.img.logo {
 		height: 75px;
 		max-height: 75px;
@@ -1471,10 +1460,6 @@ footer {
 
 	.tag_heading > .posttitle.posttitle-author {
 		font-size: 180% !important;
-	}
-
-	.logo-main {
-		top: 100px;
 	}
 
 	.cover-image {
