@@ -108,7 +108,7 @@ p > a:focus, p > a:hover
 }
 
 .main-content {
-	background: white;
+	background-color: white;
 	border: 2px solid #ebebeb;
 	border-bottom: 0 !important;
 	padding-top: 0;
@@ -425,7 +425,7 @@ POST/ARTICLE CARD UI - main
 	max-width: 1200px;
 	margin-left: auto !important;
 	margin-right: auto !important;
-	background: white;
+	background-color: white;
 }
 
 .post-item-main > a {
@@ -605,11 +605,11 @@ p > img, .post-content img {
 }
 
 .post-template {
-	background: white;
+	background-color: white;
 }
 
 .post-template > .container-fluid > .row > .sidebar {
-	background: white;
+	background-color: white;
 }
 
 .post-content h1 {
@@ -768,7 +768,6 @@ iframe {
     font-weight: 300;
 	text-shadow: none;
 	background-color: #f8f8f8 !important;
-	background: white;
 	width: 35%;
 	margin-left: auto;
 	margin-right: auto;
@@ -873,7 +872,7 @@ img.avatar {
 
 .avatar-page-author {
 	padding: 10px;
-	background: white;
+	background-color: white;
 }
 
 .author-name {
@@ -1649,31 +1648,18 @@ EXTERNAL libraries look-n-feel
 	background: #ebebeb;
 }
 
-.fa-rss {
-	color: black;
-	font-size: 1.5em;
-	padding: 15px;
-	background: white;
-	border-radius: 5px;
-}
-
-.fa-twitter {
-	color: black;
-	font-size: 1.5em;
-	padding: 15px;
-	background: white;
-	border-radius: 5px;
-}
-
+.fa-rss,
+.fa-twitter,
 .fa-facebook {
 	color: black;
 	font-size: 1.5em;
 	padding: 15px;
-	background: white;
+	background-color: white;
 	border-radius: 5px;
 }
 
-.fa-twitter-author, .fa-facebook-author {
+.fa-twitter-author,
+.fa-facebook-author {
     color: black;
     background: transparent;
 }
@@ -1686,7 +1672,9 @@ EXTERNAL libraries look-n-feel
 	margin-left: 20px;
 }
 
-.fa-clock, .fa-user, .fa-book {
+.fa-clock,
+.fa-user,
+.fa-book {
 	margin-right: 10px;
 	color: black;
 }
