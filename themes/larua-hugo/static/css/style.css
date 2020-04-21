@@ -1454,6 +1454,8 @@ footer {
 
 	.container-fluid {
 		max-width: 760px;
+		margin-left: auto;
+		margin-right: auto;
 	}
 
 	.tag_heading {
@@ -1533,11 +1535,6 @@ footer {
 	.content-images-individual {
 		object-fit: cover;
     }
-
-	.container-fluid {
-		margin-left: auto;
-		margin-right: auto;
-	}
 
 	.row-post {
 		margin-top: -15px;
