@@ -1027,6 +1027,7 @@ footer {
 
 	.tag_heading {
 		margin-top: 0;
+		height: 300px !important;
 	}
 
 	.cover-image {
@@ -1066,10 +1067,6 @@ footer {
 
 	.tag_heading > .posttitle.posttitle-author {
 		font-size: 135%;
-	}
-
-	.tag_heading {
-		height: 300px !important;
 	}
 
 	.tag_heading_post {
@@ -1277,7 +1274,6 @@ footer {
 	}
 
 	.tag_heading {
-		margin-top: 0;
 		height: 350px !important;
 	}
 
@@ -1436,11 +1432,6 @@ footer {
 
 	.menu-item {
 		margin-top: 5px;
-	}
-
-	.tag_heading {
-		margin-top: 0;
-		height: 350px !important;
 	}
 
 	.tag_heading_home {
