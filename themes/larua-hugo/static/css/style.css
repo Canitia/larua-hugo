@@ -33,7 +33,7 @@ hr {
     height: 1px;
     border: 0;
     border-top: 1px solid #ededed !important;
-	margin-top: 0px;
+	margin-top: 0;
     padding: 0;
 }
 
@@ -119,7 +119,7 @@ p > a:hover
 }
 
 .main-content-head {
-	margin-top: 0px;
+	margin-top: 0;
 }
 
 main {
@@ -920,7 +920,7 @@ img.avatar {
 
 .pagination {
 	padding:15px !important;
-	margin-bottom: 0px;
+	margin-bottom: 0;
 	border-radius: 0 !important;
 	height: 100px;
 	padding-left: inherit !important;
@@ -1009,7 +1009,7 @@ footer {
 	}
 
 	header {
-		margin-bottom: 0px;
+		margin-bottom: 0;
 	}
 
 	.main-content {
@@ -1153,7 +1153,7 @@ footer {
 	
 	h1 {
 		font-size: 2rem !important;
-		margin-top: 0px;
+		margin-top: 0;
 	}
 
 	h2 {
@@ -1175,8 +1175,8 @@ footer {
 	}
 
 	.main-content > .collection > .collection-item {
-		padding-left: 0px;
-		padding-right: 0px;
+		padding-left: 0;
+		padding-right: 0;
 	}
 
 	img.logo {
@@ -1204,7 +1204,7 @@ footer {
 	}
 
 	p.text-justify {
-		padding-top: 0px;
+		padding-top: 0;
 		padding-left:15px;
 		padding-right:15px;
 		padding-bottom:15px;
@@ -1233,7 +1233,7 @@ footer {
 	}
 
 	.post-content ul li {
-		margin-left: 0px;
+		margin-left: 0;
 	}
 
 	.tagslist {
@@ -1277,7 +1277,7 @@ footer {
 	}
 
 	.tag_heading_home {
-		top: 0px;
+		top: 0;
 		position: relative;
 		height: 100%;
 	}
@@ -1425,8 +1425,8 @@ footer {
 	}
 
 	.navbar {
-		margin-bottom: 0px;
-		padding-bottom: 0px !important;
+		margin-bottom: 0;
+		padding-bottom: 0 !important;
 	}
 
 	.menu-item {
@@ -1434,7 +1434,7 @@ footer {
 	}
 
 	.tag_heading_home {
-		top: 0px;
+		top: 0;
 		position: relative;
 		height: 350px;
 		min-height: 350px;
