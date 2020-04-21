@@ -21,7 +21,7 @@ canonifyurls = true
     url  = "https://canitia.nl"
 
 [params]
-    theme_version = "0.5.0"
+    theme_version = "0.5.1"
 
     logo = "/images/logo.png"
     bgpattern = "/images/bgpattern.png"
