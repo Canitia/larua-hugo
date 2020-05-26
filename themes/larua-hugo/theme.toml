@@ -2,7 +2,7 @@
 # See https://github.com/gohugoio/hugoThemes#themetoml for an example
 
 name = "Larua voor Hugo"
-license = "MIT"
+license = "GPLv3"
 licenselink = "https://github.com/Canitia/larua-hugo/blob/master/LICENSE"
 description = "Spinoff van Canitia's thema 'Larua' voor het Hugo platform"
 homepage = "https://github.com/Canitia/larua-hugo"
