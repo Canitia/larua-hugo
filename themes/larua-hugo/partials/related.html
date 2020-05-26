@@ -1,0 +1,18 @@
+{{ $related := .Site.RegularPages.Related . | first 3 }}
+{{ with $related }}
+<hr />
+<div class="row">
+<h3>Similar content</h3>
+<ul>
+	{{ range . }}
+	<div class="card col col-sm-12 col-md-4 col-lg-4">
+		<a href="{{ .RelPermalink }}"><img src="{{.Params.featured}}" class="homepage-image" alt="{{ .Title }}" title="{{ .Title }}" />   </a>         
+	<div class="card-block">
+	<h2 class="card-title"><a href="{{ .RelPermalink }}" title="{{ .Title }}">{{ .Title }}</a></h2>
+	<p class="card-text">{{ .Summary }}</p>
+	</div>
+</div>
+	{{ end }}
+</ul>
+</div>
+{{ end }}

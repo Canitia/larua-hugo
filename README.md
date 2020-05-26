@@ -17,6 +17,8 @@ Currently in heavy development. Things to do include:
 - Step 2: Clone/extract theme in themes directory
 
 ## Content sample
+Create your .md files with the following format and place them in the content folder. 
+
 ```
 ---
 title: "My First Post"
