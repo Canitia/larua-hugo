@@ -1,0 +1,35 @@
+{{- partial "head.html" . -}}
+<body>
+<!-- Include our /layouts/partials/header.html partial -->
+{{ partial "header" . }}
+<div class="row page-row">
+	<div class="col col-xs-12 col-md-12 col-lg-12 main-content">
+		<article>
+			<div class="post-head">
+				<h1 class="text-center post-title">{{ .Title }}</h1>
+				<div class="post-authors text-center">
+					<a href="#"><img src="{{.Site.Params.avatar}}" class="post-avatar" alt="Geschreven door {{.Params.author}}" title="Geschreven door {{.Params.author}}"></a> 
+				</div>
+				<p class="category-item text-center text-muted">
+					{{ range .Params.categories }}
+						<a href="/categories/{{ . }}">{{ . }}</a>
+					{{ end }}
+				</p>
+				<div class="post-subitems text-center">
+					<i class="fas fa-clock"></i><time datetime="{{ .Date.Format "2006-01-13" }}">{{ .Date.Format "02 Jan 2006" }}</time>
+				</div>
+			</div>
+			<div class="d-none d-sm-block d-md-block d-lg-block tag_head_wrap">
+					<div class="tag_heading_home text-center" style="background-image: url('{{.Params.featured}}'); background-repeat: no-repeat; background-size: cover;"></div>
+				</div>
+			<div class="post-content">
+			<p>{{ .Content }}</p>
+			{{ with .Params.tags }}#{{ delimit . ", #" }}{{ end }}
+			</div>
+
+			{{ partial "author-section" . }}
+			{{ partial "related" . }}
+		</article>
+	</div>
+	{{ partial "footer" . }}
+</div>

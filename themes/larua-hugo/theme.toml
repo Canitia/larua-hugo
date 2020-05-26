@@ -16,7 +16,41 @@ tags = [
 ]
 features = []
 min_version = "0.41"
+languageCode = "nl"
+title = "Larua voor Hugo"
+theme = "larua-hugo"
+contentdir = "content/posts"
+layoutdir = "layouts"
+publishdir = "public"
+canonifyurls = true
 
 [author]
   name = "Michael Boumann"
   homepage = "https://canitia.nl"
+
+[[menu.main]]
+    name = "Home"
+    weight = 1
+    url = "/"
+[[menu.main]]
+    name = "Github repository"
+    weight = 2
+    url  = "https://github.com/Canitia/larua-hugo"
+[[menu.main]]
+    name = "Over Canitia"
+    weight = 3
+    url  = "https://canitia.nl"
+
+[params]
+    theme_version = "0.5.1"
+
+    logo = "/images/logo.png"
+    bgpattern = "/images/bgpattern.png"
+    header = "/images/header/header.jpg"
+
+    avatar = "/images/avatar/avatar.jpg"
+    authorbio = "Dit is mijn biografie. Erg kort maar krachtig."
+
+[taxonomies]
+   tag = "tags"
+   category = "categories"
