@@ -43,8 +43,6 @@ canonifyurls = true
     url  = "https://canitia.nl"
 
 [params]
-    theme_version = "0.5.1"
-
     logo = "/images/logo.png"
     bgpattern = "/images/bgpattern.png"
     header = "/images/header/header.jpg"
