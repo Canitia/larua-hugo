@@ -2,7 +2,7 @@
 ![License](https://img.shields.io/github/license/Canitia/larua-hugo?style=flat-square)
 [![CodeFactor](https://www.codefactor.io/repository/github/canitia/larua-hugo/badge)](https://www.codefactor.io/repository/github/canitia/larua-hugo)
 
-A spinoff of [Larua for Ghost](https://github.com/Canitia/larua) for the Hugo static site generator. 
+A spinoff of [Larua for Ghost](https://github.com/Canitia/larua) for the [Hugo](https://gohugo.io/) static site generator. 
 
 ## Progress
 Currently in heavy development. Things to do include:
@@ -14,24 +14,20 @@ Currently in heavy development. Things to do include:
 
 ## Prerequisites
 - Step 1: Install [Hugo](https://gohugo.io/getting-started/installing)
-- Step 2: Download repo
+- Step 2: Clone/extract theme in themes directory
 
-## Customizing
-### Site config in config.toml
-- Update 'baseUrl' to your website URL 
-- Update 'title' to your website name/title
-- Update 'languagecode' to reflect your language (see [languages you can use](http://www.rssboard.org/rss-language-codes))
+## Content sample
+```
+---
+title: "My First Post"
+date: 2019-06-07T16:25:53+02:00
+draft: false
+author: "Michael Boumann"
+featured: /images/posts/post1.jpg
+type: post
+categories: [cat1,cat3]
+tags: [new,content,tags]
+---
 
-### Menu
-- Update the included menu items to your own by using the given formatting
-
-### Images
-- Customize your header and logo within config.toml. Replace the included files or enter a url for your own images.
-- Customize the background pattern (bgpattern) by using your own
-
-### Author
-- Set your own avatar image via either URL or replace the included file. 
-- Set your avatar bio
-
-## Finishing up
-Execute the hugo command to create a static html 'public' folder, or use a build tool to do this for you. 
+Lorem Ipsum is slechts een proeftekst uit het drukkerij- en zetterijwezen. Lorem Ipsum is de standaard proeftekst in deze bedrijfstak sinds de 16e eeuw, toen een onbekende drukker een zethaak met letters nam en ze door elkaar husselde om een font-catalogus te maken. Het heeft niet alleen vijf eeuwen overleefd maar is ook, vrijwel onveranderd, overgenomen in elektronische letterzetting. Het is in de jaren '60 populair geworden met de introductie van Letraset vellen met Lorem Ipsum passages en meer recentelijk door desktop publishing software zoals Aldus PageMaker die versies van Lorem Ipsum bevatten.
+```
