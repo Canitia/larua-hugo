@@ -14,7 +14,9 @@ Currently in heavy development. Things to do include:
 
 ## Prerequisites
 - Step 1: Install [Hugo](https://gohugo.io/getting-started/installing)
-- Step 2: Clone/extract theme in themes directory
+- Step 2: Clone in your Hugo's **themes** directory.
+
+``` git clone https://github.com/Canitia/larua-hugo ```
 
 ## Config.toml sample
 ```
