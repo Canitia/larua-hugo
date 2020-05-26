@@ -16,6 +16,45 @@ Currently in heavy development. Things to do include:
 - Step 1: Install [Hugo](https://gohugo.io/getting-started/installing)
 - Step 2: Clone/extract theme in themes directory
 
+## Config.toml sample
+```
+baseURL = "https://larua-hugo.canitia.nl/"
+languageCode = "nl"
+title = "Larua voor Hugo"
+theme = "larua-hugo"
+contentdir = "content/posts"
+layoutdir = "layouts"
+publishdir = "public"
+canonifyurls = true
+
+[[menu.main]]
+    name = "Home"
+    weight = 1
+    url = "/"
+[[menu.main]]
+    name = "Github repository"
+    weight = 2
+    url  = "https://github.com/Canitia/larua-hugo"
+[[menu.main]]
+    name = "Over Canitia"
+    weight = 3
+    url  = "https://canitia.nl"
+
+[params]
+    theme_version = "0.5.1"
+
+    logo = "/images/logo.png"
+    bgpattern = "/images/bgpattern.png"
+    header = "/images/header/header.jpg"
+
+    avatar = "/images/avatar/avatar.jpg"
+    authorbio = "Dit is mijn biografie. Erg kort maar krachtig."
+
+[taxonomies]
+   tag = "tags"
+   category = "categories"
+```
+
 ## Content sample
 Create your .md files with the following format and place them in the content folder. 
 
