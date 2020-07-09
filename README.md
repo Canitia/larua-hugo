@@ -5,12 +5,7 @@
 A spinoff of [Larua for Ghost](https://github.com/Canitia/larua) for the [Hugo](https://gohugo.io/) static site generator. 
 
 ## Progress
-Currently in heavy development. Things to do include:
-- ~~Pagination~~ **added in 0.2.0**
-- ~~Adding categories~~ **added in 0.4.0**
-- ~~Adding related posts~~ **added in 0.3.0**
-- ~~Adding tags~~ **added in basic form - 0.5.0**
-- Probably more i'm missing but need to check ;)
+Stable and very similar to Larua (for Ghost) now. 
 
 ## Prerequisites
 - Step 1: Install [Hugo](https://gohugo.io/getting-started/installing)
