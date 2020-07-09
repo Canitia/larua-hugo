@@ -4,19 +4,29 @@
 
 A spinoff of [Larua for Ghost](https://github.com/Canitia/larua) for the [Hugo](https://gohugo.io/) static site generator. 
 
-## Progress
-Currently in heavy development. Things to do include:
-- ~~Pagination~~ **added in 0.2.0**
-- ~~Adding categories~~ **added in 0.4.0**
-- ~~Adding related posts~~ **added in 0.3.0**
-- ~~Adding tags~~ **added in basic form - 0.5.0**
-- Probably more i'm missing but need to check ;)
+# Main Features
+- UI optimised for different form factors (phone/tablet/pc)
+- Ability to set your own publication icon and publication logo.
+- Set cover- and featured-post images in config.
+- Navigation configurable via config.
+- Author section at the bottom of each post includes avatar, user bio and socials.
+- Shows related posts (by primary tag) below a post.
+
+![Larua](https://github.com/canitia/larua/raw/master/assets/screenshot-desktop.png)
 
 ## Prerequisites
 - Step 1: Install [Hugo](https://gohugo.io/getting-started/installing)
 - Step 2: Clone Larua-Hugo's repository in your Hugo's **themes** directory.
 
 ``` git clone https://github.com/Canitia/larua-hugo```
+
+# Larua-Hugo's base
+Larua uses the following libraries;
+- Bootstrap 4
+- JQuery (3.1.x)
+- Font Awesome 5
+- Webfontloader 1.6.28
+
 
 ## Config.toml sample
 ```
