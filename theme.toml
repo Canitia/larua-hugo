@@ -1,7 +1,7 @@
-name = "Larua voor Hugo"
+name = "Larua for Hugo"
 license = "GPLv3"
 licenselink = "https://github.com/Canitia/larua-hugo/blob/master/LICENSE"
-description = "Spinoff van Canitia's thema 'Larua' voor het Hugo platform"
+description = "Spinoff of 'Larua' voor het Hugo platform"
 homepage = "https://github.com/Canitia/larua-hugo"
 tags = [
   "blog",
