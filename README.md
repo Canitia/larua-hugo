@@ -2,7 +2,7 @@
 ![License](https://img.shields.io/github/license/Canitia/larua-hugo?style=flat-square)
 [![CodeFactor](https://www.codefactor.io/repository/github/canitia/larua-hugo/badge)](https://www.codefactor.io/repository/github/canitia/larua-hugo)
 
-A spinoff of [Larua for Ghost](https://github.com/Canitia/larua) for the [Hugo](https://gohugo.io/) static site generator. 
+A spinoff of [Larua for Hugo](https://github.com/Canitia/larua) for the [Hugo](https://gohugo.io/) static site generator. 
 
 # Main Features
 - UI optimised for different form factors (phone/tablet/pc)
