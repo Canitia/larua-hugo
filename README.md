@@ -58,7 +58,7 @@ canonifyurls = true
     header = "/images/header/header.jpg"
 
     avatar = "/images/avatar/avatar.jpg"
-    authorbio = "Dit is mijn biografie. Erg kort maar krachtig."
+    authorbio = "This is my biography. It's amazing really."
 
 [taxonomies]
    tag = "tags"
