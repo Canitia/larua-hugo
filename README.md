@@ -30,7 +30,7 @@ Larua uses the following libraries;
 
 ## Config.toml sample
 ```
-baseURL = "https://larua-hugo.canitia.nl/"
+baseURL = "https://larua-hugo.mydomain.com/"
 languageCode = "nl"
 title = "Larua voor Hugo"
 theme = "larua-hugo"
@@ -48,9 +48,9 @@ canonifyurls = true
     weight = 2
     url  = "https://github.com/Canitia/larua-hugo"
 [[menu.main]]
-    name = "Over Canitia"
+    name = "About CanitiaThemes"
     weight = 3
-    url  = "https://canitia.nl"
+    url  = "https://canitiathemes.com"
 
 [params]
     logo = "/images/logo.png"
@@ -58,7 +58,7 @@ canonifyurls = true
     header = "/images/header/header.jpg"
 
     avatar = "/images/avatar/avatar.jpg"
-    authorbio = "Dit is mijn biografie. Erg kort maar krachtig."
+    authorbio = "This is my biography. It's amazing really."
 
 [taxonomies]
    tag = "tags"
@@ -73,7 +73,7 @@ Create your .md files with the following format and place them in the content fo
 title: "My First Post"
 date: 2019-06-07T16:25:53+02:00
 draft: false
-author: "Michael Boumann"
+author: "John Doe"
 featured: /images/posts/post1.jpg
 type: post
 categories: [cat1,cat3]
