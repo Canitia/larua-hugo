@@ -1,8 +1,8 @@
 ## larua-hugo
-![License](https://img.shields.io/github/license/Canitia/larua-hugo?style=flat-square)
-[![CodeFactor](https://www.codefactor.io/repository/github/canitia/larua-hugo/badge)](https://www.codefactor.io/repository/github/canitia/larua-hugo)
+![License](https://img.shields.io/github/license/pixelateddeveloper/larua-hugo?style=flat-square)
+[![CodeFactor](https://www.codefactor.io/repository/github/pixelateddeveloper/larua-hugo/badge)](https://www.codefactor.io/repository/github/canitia/larua-hugo)
 
-A spinoff of [Larua for Hugo](https://github.com/Canitia/larua) for the [Hugo](https://gohugo.io/) static site generator. 
+A spinoff of [Larua](https://github.com/pixelateddeveloper/larua) for the [Hugo](https://gohugo.io/) static site generator. 
 
 # Main Features
 - UI optimised for different form factors (phone/tablet/pc)
@@ -12,13 +12,13 @@ A spinoff of [Larua for Hugo](https://github.com/Canitia/larua) for the [Hugo](h
 - Author section at the bottom of each post includes avatar, user bio and socials.
 - Shows related posts (by primary tag) below a post.
 
-![Larua](https://github.com/canitia/larua/raw/master/assets/screenshot-desktop.png)
+![Larua](https://github.com/pixelateddeveloper/larua/raw/master/assets/screenshot-desktop.png)
 
 ## Prerequisites
 - Step 1: Install [Hugo](https://gohugo.io/getting-started/installing)
 - Step 2: Clone Larua-Hugo's repository in your Hugo's **themes** directory.
 
-``` git clone https://github.com/Canitia/larua-hugo```
+``` git clone https://github.com/pixelateddeveloper/larua-hugo```
 
 # Larua-Hugo's base
 Larua uses the following libraries;
@@ -32,7 +32,7 @@ Larua uses the following libraries;
 ```
 baseURL = "https://larua-hugo.mydomain.com/"
 languageCode = "nl"
-title = "Larua voor Hugo"
+title = "Larua for Hugo"
 theme = "larua-hugo"
 contentdir = "content"
 layoutdir = "layouts"
@@ -44,13 +44,13 @@ canonifyurls = true
     weight = 1
     url = "/"
 [[menu.main]]
-    name = "Github repository"
+    name = "Github repo"
     weight = 2
-    url  = "https://github.com/Canitia/larua-hugo"
+    url  = "https://github.com/pixelateddeveloper/larua-hugo"
 [[menu.main]]
-    name = "About CanitiaThemes"
+    name = "About PixelatedDeveloper"
     weight = 3
-    url  = "https://canitiathemes.com"
+    url  = "https://pixelateddeveloper.com"
 
 [params]
     logo = "/images/logo.png"
