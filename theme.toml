@@ -11,8 +11,8 @@ tags = [
   "clean",
   "personal"
 ]
-min_version = "0.48"
+min_version = "0.79"
 
 [author]
-  name = "PixelatedDeveloper"
-  homepage = "https://pixelateddeveloper.com"
+  name = "Michael Boumann"
+  homepage = "https://michaelboumann.com"
