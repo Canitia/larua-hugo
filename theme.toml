@@ -1,8 +1,8 @@
 name = "Larua for Hugo"
 license = "GPLv3"
-licenselink = "https://github.com/pixelateddeveloper/larua-hugo/blob/master/LICENSE"
-description = "Spinoff of 'Larua' voor het Hugo platform"
-homepage = "https://github.com/pixelateddeveloper/larua-hugo"
+licenselink = "https://github.com/pixelateddeveloper/larua-hugo-theme/blob/master/LICENSE"
+description = "A spinoff of Larua for Hugo."
+homepage = "https://github.com/pixelateddeveloper/larua-hugo-theme"
 tags = [
   "blog",
   "minimal",
@@ -11,8 +11,8 @@ tags = [
   "clean",
   "personal"
 ]
-min_version = "0.48"
+min_version = "0.79"
 
 [author]
-  name = "PixelatedDeveloper"
-  homepage = "https://pixelateddeveloper.com"
+  name = "Michael Boumann"
+  homepage = "https://michaelboumann.com"
