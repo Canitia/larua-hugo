@@ -1,6 +1,6 @@
 ## larua-hugo
 ![License](https://img.shields.io/github/license/pixelateddeveloper/larua-hugo?style=flat-square)
-[![CodeFactor](https://www.codefactor.io/repository/github/pixelateddeveloper/larua-hugo/badge)](https://www.codefactor.io/repository/github/pixelateddeveloper/larua-hugo)
+[![CodeFactor](https://www.codefactor.io/repository/github/pixelateddeveloper/larua-hugo-theme/badge)](https://www.codefactor.io/repository/github/pixelateddeveloper/larua-hugo-theme)
 
 A spinoff of [Larua](https://github.com/pixelateddeveloper/larua) for the [Hugo](https://gohugo.io/) static site generator. 
 
