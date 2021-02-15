@@ -1,7 +1,7 @@
 name = "Larua for Hugo"
 license = "GPLv3"
 licenselink = "https://github.com/pixelateddeveloper/larua-hugo/blob/master/LICENSE"
-description = "Spinoff of 'Larua' voor het Hugo platform"
+description = "A spinoff of Larua for Hugo."
 homepage = "https://github.com/pixelateddeveloper/larua-hugo"
 tags = [
   "blog",
