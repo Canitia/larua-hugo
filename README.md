@@ -18,7 +18,7 @@ A spinoff of [Larua](https://github.com/pixelateddeveloper/larua-ghost-theme) fo
 - Step 1: Install [Hugo](https://gohugo.io/getting-started/installing)
 - Step 2: Clone Larua-Hugo's repository in your Hugo's **themes** directory.
 
-``` git clone https://github.com/pixelateddeveloper/larua-hugo```
+``` git clone https://github.com/pixelateddeveloper/larua-hugo-theme```
 
 # Larua-Hugo's base
 Larua uses the following libraries;
@@ -46,7 +46,7 @@ canonifyurls = true
 [[menu.main]]
     name = "Github repo"
     weight = 2
-    url  = "https://github.com/pixelateddeveloper/larua-hugo"
+    url  = "https://github.com/pixelateddeveloper/larua-hugo-theme"
 [[menu.main]]
     name = "About PixelatedDeveloper"
     weight = 3
