@@ -1,8 +1,8 @@
 name = "Larua for Hugo"
 license = "GPLv3"
-licenselink = "https://github.com/pixelateddeveloper/larua-hugo-theme/blob/master/LICENSE"
+licenselink = "https://github.com/spookthemes/larua-hugo-theme/blob/master/LICENSE"
 description = "A spinoff of Larua for Hugo."
-homepage = "https://github.com/pixelateddeveloper/larua-hugo-theme"
+homepage = "https://github.com/spookthemes/larua-hugo-theme"
 tags = [
   "blog",
   "minimal",
@@ -14,5 +14,5 @@ tags = [
 min_version = "0.79"
 
 [author]
-  name = "Michael Boumann"
-  homepage = "https://michaelboumann.com"
+  name = "SpookThemes"
+  homepage = "https://spookthemes.com"
