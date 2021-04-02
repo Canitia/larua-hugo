@@ -31,7 +31,7 @@ Larua uses the following libraries;
 ## Config.toml sample
 ```
 baseURL = "https://larua-hugo.mydomain.com/"
-languageCode = "nl"
+languageCode = "en-us"
 title = "Larua for Hugo"
 theme = "larua-hugo"
 contentdir = "content"
@@ -46,11 +46,11 @@ canonifyurls = true
 [[menu.main]]
     name = "Github repo"
     weight = 2
-    url  = "https://github.com/spookthemes/larua-hugo-theme"
+    url  = "https://github.com/pixelateddeveloper/larua-hugo-theme"
 [[menu.main]]
-    name = "About SpookThemes"
+    name = "About Michael Boumann"
     weight = 3
-    url  = "https://spookthemes.com"
+    url  = "https://michaelboumann.com"
 
 [params]
     logo = "/images/logo.png"
