@@ -1,8 +1,8 @@
 ## larua-hugo
-![License](https://img.shields.io/github/license/spookthemes/larua-hugo?style=flat-square)
-[![CodeFactor](https://www.codefactor.io/repository/github/spookthemes/larua-hugo-theme/badge)](https://www.codefactor.io/repository/github/spookthemes/larua-hugo-theme)
+![License](https://img.shields.io/github/license/pixelateddeveloper/larua-hugo?style=flat-square)
+[![CodeFactor](https://www.codefactor.io/repository/github/pixelateddeveloper/larua-hugo-theme/badge)](https://www.codefactor.io/repository/github/spookthemes/larua-hugo-theme)
 
-A spinoff of [Larua](https://github.com/spookthemes/larua-ghost-theme) for the [Hugo](https://gohugo.io/) static site generator. 
+A spinoff of [Larua](https://github.com/pixelateddeveloper/larua-ghost-theme) for the [Hugo](https://gohugo.io/) static site generator. 
 
 # Main Features
 - UI optimised for different form factors (phone/tablet/pc)
@@ -12,7 +12,7 @@ A spinoff of [Larua](https://github.com/spookthemes/larua-ghost-theme) for the [
 - Author section at the bottom of each post includes avatar, user bio and socials.
 - Shows related posts (by primary tag) below a post.
 
-![Larua](https://github.com/spookthemes/larua/raw/master/assets/screenshot-desktop.png)
+![Larua](https://github.com/pixelateddeveloper/larua/raw/master/assets/screenshot-desktop.png)
 
 ## Prerequisites
 - Step 1: Install [Hugo](https://gohugo.io/getting-started/installing)
