@@ -1,6 +1,6 @@
 ## larua-hugo
 ![License](https://img.shields.io/github/license/pixelateddeveloper/larua-hugo?style=flat-square)
-[![CodeFactor](https://www.codefactor.io/repository/github/pixelateddeveloper/larua-hugo-theme/badge)](https://www.codefactor.io/repository/github/spookthemes/larua-hugo-theme)
+[![CodeFactor](https://www.codefactor.io/repository/github/pixelateddeveloper/larua-hugo-theme/badge)](https://www.codefactor.io/repository/github/pixelateddeveloper/larua-hugo-theme)
 
 A spinoff of [Larua](https://github.com/pixelateddeveloper/larua-ghost-theme) for the [Hugo](https://gohugo.io/) static site generator. 
 
@@ -18,7 +18,7 @@ A spinoff of [Larua](https://github.com/pixelateddeveloper/larua-ghost-theme) fo
 - Step 1: Install [Hugo](https://gohugo.io/getting-started/installing)
 - Step 2: Clone Larua-Hugo's repository in your Hugo's **themes** directory.
 
-``` git clone https://github.com/spookthemes/larua-hugo-theme```
+``` git clone https://github.com/pixelateddeveloper/larua-hugo-theme```
 
 # Larua-Hugo's base
 Larua uses the following libraries;
